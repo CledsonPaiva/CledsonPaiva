@@ -392,6 +392,12 @@ footer{
 .main img{
     display: flex;
 }
+
+.contentsobre {
+    text-align: justify;
+    
+
+}
 .contentsobre h2{
     font-size:3.8rem;
 
@@ -416,6 +422,18 @@ footer{
     text-align: justify;
     font-size: 2rem;
 }
+.sobre-nos img{
+    
+    margin-top: 20px;
+    margin-left: 610px;
+	flex-direction: row-reverse;
+    border-radius: 18px;
+    width: 22%;
+    height: 6%;
+}
+.contatos-secao i{
+    width: 22%;
+    height: 6%;
 
 
 }
