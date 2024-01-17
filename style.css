@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 *{
-    margin: 0;
-    padding: 0;
+    margin: 2;
+    padding: 2;
     box-sizing: border-box;
     list-style: none;
     border: none;
@@ -19,7 +19,7 @@ html{
 .content{
     height: 520px;
     width: 935px;
-    border-radius: 20px;
+    border-radius: 15px;
     overflow: hidden;
     position: absolute;
     top: 50%;
@@ -220,14 +220,14 @@ html{
 .sobre-nos img{
     width: 420px;
     height: 300px;
-    margin-top: 5rem;
-    margin-left: 5rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
     display: block;
 	float: left;
-	padding: 10px 10px 10px 10px;
+	padding: 5px 5px 5px 5px;
 	margin: 10px 0 0 10px;
     cursor: pointer;
-    border-radius: 25px;
+    border-radius: 15px;
     
 }
 .main{
@@ -371,6 +371,38 @@ footer{
     justify-content: center;
     border-radius: 15px;
     flex-direction: column;
-
 }
 
+@media(max-width: 1020px){
+.btn{
+    flex-direction: column;
+}
+.content{
+    width: 90%;
+    height: 35%;
+}
+.main{
+    flex-direction: column;
+}
+
+.contentsobre h2{
+    font-size:3.8rem;
+}   
+
+.contentsobre h3{
+    font-size:2rem;
+}
+.contentsobre p{
+
+    font-size:1.8rem;
+    text-size-adjust: 100%;
+    margin-top: 2px;
+    margin-left: 580px;
+    margin-right: 360px;
+    margin-bottom: 2px;
+    box-shadow: 3px 3px 0px 0px
+}
+ 
+
+
+}
